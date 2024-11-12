@@ -1,0 +1,26 @@
+{
+  "name": "C# Projects Container",
+  "context": "..",
+  "dockerFile": "../Dockerfile.dev",
+  "mounts": ["source=${localWorkspaceFolder},target=/app,type=bind"],
+  "workspaceFolder": "/app",
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.csharp",
+        "usernamehw.errorlens"
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "editor.formatOnSave": true,
+        "dotnet.format.enable": true,
+        "files.watcherExclude": {
+          "**/obj/**": true,
+          "**/bin/**": true
+        }
+      },
+    }
+  }
+}
