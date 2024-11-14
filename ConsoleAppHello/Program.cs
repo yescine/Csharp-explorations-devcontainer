@@ -24,3 +24,8 @@ Console.WriteLine("the calculation result is: {0}", result);
 
 var syntaxInit = new Syntax("names");
 syntaxInit.Linq();
+
+var p1 = new NModels.Profile("yassine", "http://domain.com", new DateOnly(1990, 1, 1));
+p1.Ranks.Add(new NModels.ProfileRanks(5, new DateTime()));
+
+Console.WriteLine($"profile data: {p1.ToString()}, type as {p1.GetType().Name}");
