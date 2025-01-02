@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppHello", "ConsoleAppHello\ConsoleAppHello.csproj", "{752119ED-F3A4-4329-B1B6-90A959B43312}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftLearn", "MicrosoftLearn\MicrosoftLearn.csproj", "{5D1558F8-CA2E-4C1C-AD35-3524616FE061}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{752119ED-F3A4-4329-B1B6-90A959B43312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{752119ED-F3A4-4329-B1B6-90A959B43312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{752119ED-F3A4-4329-B1B6-90A959B43312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D1558F8-CA2E-4C1C-AD35-3524616FE061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1558F8-CA2E-4C1C-AD35-3524616FE061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1558F8-CA2E-4C1C-AD35-3524616FE061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1558F8-CA2E-4C1C-AD35-3524616FE061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
